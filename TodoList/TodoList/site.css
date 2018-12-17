@@ -1,0 +1,100 @@
+﻿
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.container {
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+}
+.container2 {
+    margin-left: auto;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+.gridViewMain tr {
+    background-color: #f2f2f2;  
+}
+    .gridViewMain tr:nth-child(2n+1) {
+        background: #f9f9f9;
+    }
+    .gridViewMain tr:hover {
+        background: #ddd;
+    }
+.gridViewMain td {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    font-size: 16px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 4px;
+}
+
+.gridViewMain tr:checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.gridViewMain a {
+    color: black;
+}
+
+    .gridViewMain a:hover {
+        color: white;
+        text-decoration-style: none;
+    }
+
+
+
+
+
+
+    /*.gridViewMain th :hover {
+    background: #f00;
+}*/
+/*
+
+.gridViewMain {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    top: 20px;
+    left: 4px;
+}
+.GridSelectedRow {
+    font-family: Calibri, Arial, Sans-Serif;
+    background-color: #E6E6FA;
+}
+.GridSelectedRow :hover {
+    background-color: #f00;
+    color: white;
+}
+
+
+*/
+
+
